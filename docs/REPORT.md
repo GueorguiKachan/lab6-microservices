@@ -63,7 +63,7 @@ The objective is to show that the following activities have been accomplished:
   
    ![accountError.png](accountError.png)
    
-   - But after waiting for some time (15 seconds more or less) and trying to connect again, the web service is able provide information about the account again.
+   - But after waiting for some time (15 seconds more or less) and trying to connect again, the web service is able to provide information about the account again.
 
    ![accountWorksAgain.png](accountWorksAgain.png)
    
