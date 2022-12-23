@@ -53,3 +53,19 @@ The objective is to show that the following activities have been accomplished:
   Which also appears in Eureka's dashboard:
   
   ![web2Accounts.png](web2Accounts.png)
+  
+  - After that we need to kill the account service running on port 2222, and we do so with Ctrl+C
+  - It's notified in Eureka's dashboard
+
+  ![accountDown.png](accountDown.png)
+  
+  - So when I try to connect with the accounts there is an error
+  
+   ![accountError.png](accountError.png)
+   
+   - But after waiting for some time (15 seconds more or less) and trying to connect again, the web service is able provide information about the account again.
+
+   ![accountWorksAgain.png](accountWorksAgain.png)
+   
+   - The explanation to this is that, even though the accounts service is not running anymore on port 2222, it still runs on port 4444 so the web service is still able to find the account service (after some time) and use it.
+
