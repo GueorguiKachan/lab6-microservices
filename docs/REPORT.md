@@ -16,7 +16,7 @@ The objective is to show that the following activities have been accomplished:
   ```
   The discovery server is launched, as shown in the screenshot below:
  
-![initRegistration.PNG](initRegistration.PNG)
+![initRegistration.png](initRegistration.png)
 
 - After that, I launch the first accounts service with 
 ```bash
@@ -24,11 +24,11 @@ The objective is to show that the following activities have been accomplished:
   ```
   It launches correctly, as you can see in the screenshot below:
   
-  ![initAccounts.PNG](initAccounts.PNG)
+  ![initAccounts.png](initAccounts.png)
   
   And it appears in Eureka's Dashboard
   
-   ![accountRegistered.PNG](accountRegistered.PNG)
+   ![accountRegistered.png](accountRegistered.png)
    
    - After that, I launch the web service with 
 ```bash
@@ -36,20 +36,20 @@ The objective is to show that the following activities have been accomplished:
   ```
   It launches correctly, as you can see in the screenshot below:
   
-  ![initWeb.PNG](initWeb.PNG)
+  ![initWeb.png](initWeb.png)
   
   And it also appears in Eureka's Dashboard
   
-   ![accountWebRegistered.PNG](accountWebRegistered.PNG)
+   ![accountWebRegistered.png](accountWebRegistered.png)
    
  - Then I modify the accounts/src/main/resources/application.yaml. As shown in the next screenshot, I change the port form 2222 to 4444 as requested:
 
-  ![changePort.PNG](changePort.PNG)
+  ![changePort.png](changePort.png)
   
  - Next step is to launch another accounts service:
  
-  ![newAccountInit.PNG](newAccountInit.PNG)
+  ![newAccountInit.png](newAccountInit.png)
   
   Which also appears in Eureka's dashboard:
   
-  ![web2Accounts.PNG](web2Accounts.PNG)
+  ![web2Accounts.png](web2Accounts.png)
